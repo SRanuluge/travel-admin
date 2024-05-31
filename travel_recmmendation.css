@@ -13,6 +13,10 @@ body {
   background-size: cover;
 }
 
+button{
+  cursor: pointer;
+}
+
 header {
   position: fixed;
   background: linear-gradient(to right, rgb(3, 41, 44), rgba(255, 0, 0, 0));
@@ -74,6 +78,7 @@ header {
 
 .searchbar-container img {
   width: 25px;
+  cursor: pointer;
 }
 
 .searchbar-container button {
