@@ -137,7 +137,6 @@ header {
 }
 
 .main-container #h-line {
-  
   background-color: #fff;
   height: 240px;
   width: 2px;
@@ -145,18 +144,18 @@ header {
   opacity: 0.7;
 }
 .main-container .social-icons {
-  /* position: absolute; */
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: center;
   height: 240px;
   width: 60px;
-  background-color: #fdfdfd;
+  background-color: rgba(0,0,0,0.0);
   margin-top: 100px;
-  opacity: 0.1;
 }
 
 .social-icons img{
   width:40px;
-  height:30px;
+  height:40px;
+  cursor: pointer;
 }
