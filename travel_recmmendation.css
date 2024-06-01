@@ -14,8 +14,8 @@ body {
 }
 
 button {
-  cursor: pointer;
   background-color: #156b60;
+  cursor: pointer;
 }
 
 header {
@@ -23,6 +23,7 @@ header {
   background: linear-gradient(to right, rgb(3, 41, 44), rgba(255, 0, 0, 0));
   width: 100%;
   opacity: 0.99;
+  z-index: 1000;
 }
 .navbar-container {
   padding: 5px 5px;
@@ -126,7 +127,7 @@ header {
   cursor: pointer;
 }
 
-.main-container .left-container{
+.main-container .left-container {
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -150,12 +151,69 @@ header {
   align-items: center;
   height: 240px;
   width: 60px;
-  background-color: rgba(0,0,0,0.0);
+  background-color: rgba(0, 0, 0, 0);
   margin-top: 100px;
 }
 
-.social-icons img{
-  width:40px;
-  height:40px;
+.social-icons img {
+  width: 40px;
+  height: 40px;
   cursor: pointer;
+}
+
+.main-container .main-inner-container-about {
+  margin-top: 100px;
+  margin-left: 180px;
+}
+
+.main-inner-container-about p {
+  width: 1000px;
+  font-size: 20px;
+}
+
+.main-inner-container-about #h-tag-about {
+  font-weight: bold;
+  font-size: 70px;
+  width: 400px;
+}
+
+.main-inner-container-contact {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0px 300px;
+  height: 100vh;
+}
+.main-inner-container-contact div {
+  flex: 1;
+}
+
+.main-inner-container-contact h1 {
+  font-weight: bold;
+  font-size: 70px;
+}
+
+.main-inner-container-contact form {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.main-inner-container-contact input {
+  border-color: #09373a !important;
+  border-width: 1px !important;
+  background-color: #09373a;
+  opacity: 0.7;
+  color: #fff;
+  font-size: large;
+  font-weight: bold;
+  height: 50px;
+}
+.main-inner-container-contact textarea {
+  background-color: #09373a;
+  opacity: 0.6;
+  border-color: #09373a !important;
+  border-width: 1px !important;
+  color: #fff;
+  font-size: large;
+  font-weight: bold;
 }

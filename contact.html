@@ -11,7 +11,9 @@
       <!-- Navigation bar -->
       <nav class="navbar-container">
         <div class="logo-section">
-          <a href="travel_recmmendation.html"><img src="./public/logo1.png" alt="logo" /></a>
+          <a href="travel_recmmendation.html"
+            ><img src="./public/logo1.png" alt="logo"
+          /></a>
           TravelSphere
         </div>
         <div class="links">
@@ -19,7 +21,7 @@
           <a class="link" href="about.html">About Us</a>
           <a class="link" href="contact.html">Contact Us</a>
         </div>
-        <div class="searchbar-container">
+        <div class="searchbar-container" style="opacity: 0">
           <!-- <div id="searchbar">
             <input type="text" placeholder="Enter a destination or keyword" />
             <img src="./public/icon.png" alt="search" />
@@ -35,9 +37,40 @@
 
     <!-- Main Section -->
     <main class="main-container">
-      <!-- <div > -->
-      <!-- Container -->
-      <!-- </div> -->
+      <div class="left-container">
+        <div id="h-line"></div>
+        <div class="social-icons">
+          <a target="_blank" href="https://x.com"
+            ><img src="./public/tw.png" alt="tw"
+          /></a>
+          <a target="_blank" href="https://facebook.com"
+            ><img src="./public/fb.png" alt="fb"
+          /></a>
+          <a target="_blank" href="https://www.instagram.com/"
+            ><img src="./public/in.png" alt="in"
+          /></a>
+          <a target="_blank" href="https://www.youtube.com"
+            ><img src="./public/yt.png" alt="yt"
+          /></a>
+        </div>
+      </div>
+      <div class="main-inner-container-contact">
+        <div>
+          <h1 id="h-tag-contact">CONTACT US</h1>
+          <h5>Get in touch</h5>
+        </div>
+        <form>
+          <label for="name">Name</label><br />
+          <input type="text" required id="name" name="name" /><br />
+          <label for="email">Email</label><br />
+          <input type="email" required="email" name="email" /><br />
+          <label for="message">Message</label><br />
+          <textarea type="text" id="message" name="message" rows="6"></textarea>
+          <br />
+          <input type="submit" id="submit-btn" />
+        </form>
+        <!-- <button>BOOK NOW</button> -->
+      </div>
     </main>
     <!-- </div>  -->
 
