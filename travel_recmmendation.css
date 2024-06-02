@@ -217,3 +217,9 @@ header {
   font-size: large;
   font-weight: bold;
 }
+.team-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 300px;
+  margin-left: 180px;
+}
