@@ -219,7 +219,48 @@ header {
 }
 .team-container {
   display: flex;
-  justify-content: space-between;
-  margin-top: 300px;
+  justify-content: space-evenly;
+  margin-top: 100px;
   margin-left: 180px;
+}
+.team-container h1 {
+  word-wrap: break-word;
+  font-weight: bold;
+  font-size: 70px;
+}
+
+.team-detail-card {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  padding: 20px 10px;
+  margin-right: 25px;
+  border-radius: 10px;
+}
+.team-detail-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.profile-info {
+  width: 170px;
+  display: flex;
+  flex-direction: column;
+}
+
+.team-detail-card img {
+  width: 45px;
+  height: 45px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.profile-info p {
+  width: 100%;
+  word-wrap: break-word;
+}
+
+.team-detail-card span {
+  background-color: #09373a;
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px 10px;
 }
